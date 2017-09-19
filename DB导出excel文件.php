@@ -7,7 +7,7 @@
  */
 function expExcel($arr,$name){
 
-    require_once dirname(__FILE__) . '/../Classes/PHPExcel.php';
+    require_once dirname(__FILE__) . './PHPExcel.php';
     $objPHPExcel = new PHPExcel();
     $objPHPExcel->getProperties()->setCreator("xcjock")
         ->setLastModifiedBy("xcjock")
